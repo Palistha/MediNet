@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sarita.medinet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/medinet"
+        android:label="MediNet"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Appointment"
+            android:label="MediNet" />
+        <activity android:name=".PatientRegister" />
+        <activity android:name=".AddDoctor" />
+        <activity android:name=".doctord" />
+        <activity android:name=".ListView" />
+        <activity android:name=".patientlogin" />
+        <activity android:name=".DatalistActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Notification">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".secondclassjava"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="second_filter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".AboutMedReminder"></activity> -->
+
+        <activity
+            android:name=".AboutMedReminder"
+            android:label="@string/app_name">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <receiver
+            android:name=".AlramReceiver"
+            android:process=":remote" />
+
+        <service android:name=".RingtonePlaying" />
+
+        <activity android:name=".Reminderadd" />
+        <activity
+            android:name=".ScheduleDate"
+            android:label="Date" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Reminder"></activity>
+
+        <activity
+            android:name=".Reminder.ReminderActivity"
+            android:label="Reminder"
+            android:theme="@style/App_Theme"/>
+
+        <activity
+            android:name=".Reminder.ReminderAddActivity"
+            android:label="@string/title_activity_add_reminder"/>
+
+        <activity
+            android:name=".Reminder.ReminderEditActivity"
+            android:label="@string/title_activity_edit_reminder"/>
+
+        <activity
+            android:name=".Reminder.LicencesActivity"
+            android:label="@string/title_activity_licenses"/>
+
+        <receiver android:name=".Reminders.AlraReceiverr"/>
+
+        <receiver
+            android:name=".Reminders.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>

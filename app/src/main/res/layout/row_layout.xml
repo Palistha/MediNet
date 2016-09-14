@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#A74D4D">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_user_name"
+        android:text="Here UserName"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_email"
+        android:text="Here Email"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_Password"
+        android:text="Here Password"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_confirmpassword"
+        android:text="Here Confirm Password"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MediNet</string>
+    <string-array name="category">
+        <item>About MediNet</item>
+        <item> Doctors Detail</item>
+        <item>Appointment Reminder</item>\
+
+    </string-array>
+    <string name="DoctorsName">MediNet</string>
+    <string name="title_activity_add_reminder" />
+    <string-array name="doctors">
+        <item> Dr.John Thapa</item>
+        <item> Dr.Ritesh Puri</item>
+        <item> Dr.Sharon Shrestha</item>
+        <item> Dr.Palistha Maharjan</item>
+        <item> Dr.Shivani Devkota</item>
+        <item> Dr.Swornim Shrestha </item>
+        <item> Dr.Rijesh Shrestha</item>
+        <item> Dr.Aachal Thapa </item>
+        <item> Dr.Nisha Shahi</item>
+
+
+    </string-array>
+
+
+</resources>
